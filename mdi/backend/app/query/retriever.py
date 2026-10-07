@@ -233,6 +233,7 @@ class VectorRetriever:
             "doc_id", "document_title", "page", "page_label", "section_path",
             "element_type", "element_id", "content", "table_json",
             "table_markdown", "vector_score", "bm25_score", "score", "rrf_score",
+            "visual_ref", "image_path", "crop_path",
         }
         extra_meta = {k: v for k, v in raw.items() if k not in known_keys}
 
@@ -247,6 +248,7 @@ class VectorRetriever:
             content=raw.get("content", ""),
             table_json=raw.get("table_json"),
             table_markdown=raw.get("table_markdown"),
+            visual_ref=raw.get("visual_ref") or raw.get("image_path") or raw.get("crop_path"),
             score=raw.get("vector_score") or raw.get("score"),
             metadata={
                 "vector_score": raw.get("vector_score", 0.0),
@@ -309,6 +311,7 @@ class BM25Retriever:
             "doc_id", "document_title", "page", "page_label", "section_path",
             "element_type", "element_id", "content", "table_json",
             "table_markdown", "vector_score", "bm25_score", "score", "rrf_score",
+            "visual_ref", "image_path", "crop_path",
         }
         extra_meta = {k: v for k, v in raw.items() if k not in known_keys}
 
@@ -323,6 +326,7 @@ class BM25Retriever:
             content=raw.get("content", ""),
             table_json=raw.get("table_json"),
             table_markdown=raw.get("table_markdown"),
+            visual_ref=raw.get("visual_ref") or raw.get("image_path") or raw.get("crop_path"),
             score=raw.get("bm25_score") or raw.get("score"),
             metadata={
                 "vector_score": raw.get("vector_score", 0.0),
@@ -425,6 +429,7 @@ class HybridRetriever:
             "doc_id", "document_title", "page", "page_label", "section_path",
             "element_type", "element_id", "content", "table_json",
             "table_markdown", "vector_score", "bm25_score", "score", "rrf_score",
+            "visual_ref", "image_path", "crop_path",
         }
         extra_meta = {k: v for k, v in raw.items() if k not in known_keys}
 
@@ -439,6 +444,7 @@ class HybridRetriever:
             content=raw.get("content", ""),
             table_json=raw.get("table_json"),
             table_markdown=raw.get("table_markdown"),
+            visual_ref=raw.get("visual_ref") or raw.get("image_path") or raw.get("crop_path"),
             score=raw.get("score") or raw.get("rrf_score"),
             metadata={
                 "vector_score": raw.get("vector_score", 0.0),
@@ -456,3 +462,6 @@ class HybridRetriever:
 global_vector_retriever = VectorRetriever()
 global_bm25_retriever = BM25Retriever()
 global_hybrid_retriever = HybridRetriever()
+
+from backend.app.query.multimodal import MultimodalRetriever, global_multimodal_retriever
+
