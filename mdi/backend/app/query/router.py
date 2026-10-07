@@ -77,6 +77,11 @@ def route_plan(plan: Plan) -> RetrievalStrategy:
     if intent == "comparison":
         return RetrievalStrategy.HYBRID
 
+    # ── Rule 6: Exact terminology / numeric values benefit from keyword BM25 → HYBRID
+    q_lower = plan.question.lower()
+    if any(k in q_lower for k in ("exact", "specifically", "verbatim", "code", "id:")):
+        return RetrievalStrategy.HYBRID
+
     # ── Default: pure semantic text retrieval ────────────────────────────
     return RetrievalStrategy.VECTOR
 

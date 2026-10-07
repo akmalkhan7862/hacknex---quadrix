@@ -131,7 +131,14 @@ class TableReader:
             )
 
         q_lower = question.lower()
-        q_tokens = [w for w in re.findall(r"\w+", q_lower) if len(w) >= 2]
+        _STOP_WORDS = {
+            "what", "where", "when", "which", "how", "many", "does", "that",
+            "this", "from", "with", "have", "been", "were", "the", "and", "for",
+            "are", "its", "was", "did", "can", "could", "would", "should", "will",
+            "calculate", "find", "determine", "show", "tell", "to", "of", "in",
+            "on", "at", "by", "between", "into", "through", "is",
+        }
+        q_tokens = [w for w in re.findall(r"\w+", q_lower) if len(w) >= 2 and w not in _STOP_WORDS]
 
         matched_cells: List[TableCellMatch] = []
         matched_rows: List[Dict[str, Any]] = []
@@ -141,9 +148,18 @@ class TableReader:
         # Find which columns best match question keywords (e.g., "efficiency", "revenue", "output")
         target_col_indices = []
         for c_idx, h in enumerate(headers):
-            h_lower = h.lower()
-            if any(tok in h_lower for tok in q_tokens):
+            h_words = set(re.findall(r"\w+", h.lower()))
+            if any(tok in h_words or tok in h.lower() for tok in q_tokens):
                 target_col_indices.append(c_idx)
+
+        # If question asks about percentage or efficiency, target columns containing % or efficiency
+        if any(p in q_lower for p in ("percentage", "percent", "%", "efficiency", "rate", "ratio")):
+            for c_idx, h in enumerate(headers):
+                if c_idx not in target_col_indices:
+                    h_lower = h.lower()
+                    has_pct = "%" in h_lower or "efficiency" in h_lower or any("%" in str(row[c_idx]) for row in data_rows if c_idx < len(row))
+                    if has_pct:
+                        target_col_indices.append(c_idx)
 
         # Scan each data row to see if it matches row qualifiers in the question (e.g., "Q4", "Q2", "Dallas")
         for r_idx, row in enumerate(data_rows):
