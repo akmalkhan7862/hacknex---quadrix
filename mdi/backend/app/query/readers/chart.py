@@ -53,8 +53,16 @@ class ChartReader:
         ----------
         vlm : VisionProvider / VLM interface | None
             Optional vision model used to analyze the visual crop.
+            Defaults to global_vision_provider.
         """
-        self.vlm = vlm
+        if vlm is not None:
+            self.vlm = vlm
+        else:
+            try:
+                from backend.app.models.vlm import global_vision_provider
+                self.vlm = global_vision_provider
+            except Exception:
+                self.vlm = None
 
     def _detect_chart_type(self, text: str) -> str:
         text_lower = text.lower()

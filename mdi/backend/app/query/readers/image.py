@@ -34,7 +34,14 @@ class ImageReader:
     """
 
     def __init__(self, vlm: Optional[Any] = None):
-        self.vlm = vlm
+        if vlm is not None:
+            self.vlm = vlm
+        else:
+            try:
+                from backend.app.models.vlm import global_vision_provider
+                self.vlm = global_vision_provider
+            except Exception:
+                self.vlm = None
 
     def read(
         self,
