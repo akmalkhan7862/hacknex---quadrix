@@ -99,9 +99,20 @@ def test_query_analyzer():
     assert "revenue" in res["keywords"]
 
 def test_query_router():
+    # A bare minimal dict with no table/chart/calc signals → VECTOR route.
     engines = global_router.route_query({"question": "sample"})
     assert "vector" in engines
-    assert "bm25" in engines
+
+    # A table-bearing query → HYBRID (both vector + bm25).
+    table_engines = global_router.route_query({
+        "question": "What was the revenue?",
+        "modalities": ["text", "table"],
+        "needs_calculation": False,
+        "cross_document": False,
+        "intent": "fact_lookup",
+    })
+    assert "vector" in table_engines
+    assert "bm25" in table_engines
 
 def test_reranker():
     candidates = [
