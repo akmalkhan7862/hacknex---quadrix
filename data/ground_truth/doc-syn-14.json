@@ -1,0 +1,2576 @@
+[
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 1,
+    "section_path": "1. Executive Summary & Operational Root Cause Analysis",
+    "element_id": "doc-syn-14-p1-text-01",
+    "element_type": "text",
+    "value": "Operational assessment for Energy_Efficiency Performance Report 2022 identified thermal regulation bottlenecks in primary processing unit.",
+    "unit": null,
+    "bbox": [
+      50.0,
+      50.0,
+      120.0,
+      550.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 1,
+    "section_path": "2. Production Output & Efficiency Metrics",
+    "element_id": "doc-syn-14-p1-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Metric Line",
+        "Baseline",
+        "Actual Output*",
+        "Efficiency Rate (%)"
+      ],
+      [
+        "Line Alpha (Primary)",
+        "1200 INR Crores",
+        "2028 INR Crores",
+        "89.7%"
+      ],
+      [
+        "Line Beta (Secondary)",
+        "800 INR Crores",
+        "1318 INR Crores",
+        "80.7%"
+      ],
+      [
+        "Combined Operational Total",
+        "2000 INR Crores",
+        "3346 INR Crores",
+        "85.2%"
+      ]
+    ],
+    "unit": "INR Crores",
+    "bbox": [
+      160.0,
+      50.0,
+      320.0,
+      550.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 1,
+    "section_path": "3. Dual-Axis Production & Efficiency Trend",
+    "element_id": "doc-syn-14-p1-chart-01",
+    "element_type": "chart",
+    "value": {
+      "production": [
+        1356,
+        1251,
+        1602
+      ],
+      "efficiency": [
+        94.5,
+        90.8,
+        87.8
+      ]
+    },
+    "unit": "Units & %",
+    "bbox": [
+      340.0,
+      50.0,
+      560.0,
+      480.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 2,
+    "section_path": "Page 2 - Stacked Plant Breakdown",
+    "element_id": "doc-syn-14-p2-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        646,
+        713,
+        821
+      ],
+      "scrap": [
+        77,
+        90,
+        58
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      80.0,
+      50.0,
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 2,
+    "section_path": "Page 2 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p2-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "96 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "123 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "90 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "140 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "86 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "150 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "131 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "113 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "90 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "131 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "144 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "135 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "96 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 3,
+    "section_path": "Page 3 - Distribution Share (Legend Only)",
+    "element_id": "doc-syn-14-p3-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Alpha Line": 45,
+      "Beta Line": 35,
+      "Gamma Line": 20
+    },
+    "unit": "%",
+    "bbox": [
+      80.0,
+      50.0,
+      290.0,
+      420.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 3,
+    "section_path": "Page 3 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p3-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "97 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "141 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "105 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "142 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "130 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "105 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "147 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "111 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "111 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "89 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "114 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "135 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "121 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 4,
+    "section_path": "Page 4 - Stacked Plant Breakdown",
+    "element_id": "doc-syn-14-p4-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        950,
+        894,
+        645
+      ],
+      "scrap": [
+        54,
+        92,
+        94
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      80.0,
+      50.0,
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 4,
+    "section_path": "Page 4 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p4-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "126 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "124 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "104 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "121 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "124 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "83 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "119 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "101 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "124 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "136 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "98 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "136 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "85 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 5,
+    "section_path": "Page 5 - Distribution Share (Legend Only)",
+    "element_id": "doc-syn-14-p5-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Alpha Line": 45,
+      "Beta Line": 35,
+      "Gamma Line": 20
+    },
+    "unit": "%",
+    "bbox": [
+      80.0,
+      50.0,
+      290.0,
+      420.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 5,
+    "section_path": "Page 5 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p5-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "109 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "105 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "127 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "99 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "90 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "94 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "86 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "111 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "98 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "116 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "81 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "123 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "94 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 6,
+    "section_path": "Page 6 - Stacked Plant Breakdown",
+    "element_id": "doc-syn-14-p6-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        756,
+        830,
+        841
+      ],
+      "scrap": [
+        42,
+        82,
+        66
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      80.0,
+      50.0,
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 6,
+    "section_path": "Page 6 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p6-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "148 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "107 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "106 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "149 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "146 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "113 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "150 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "141 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "98 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "82 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "128 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "147 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "85 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 7,
+    "section_path": "Page 7 - Distribution Share (Legend Only)",
+    "element_id": "doc-syn-14-p7-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Alpha Line": 45,
+      "Beta Line": 35,
+      "Gamma Line": 20
+    },
+    "unit": "%",
+    "bbox": [
+      80.0,
+      50.0,
+      290.0,
+      420.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 7,
+    "section_path": "Page 7 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p7-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "112 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "101 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "87 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "116 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "105 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "114 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "86 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "139 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "81 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "88 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "129 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "114 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "126 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 8,
+    "section_path": "Page 8 - Stacked Plant Breakdown",
+    "element_id": "doc-syn-14-p8-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        655,
+        609,
+        749
+      ],
+      "scrap": [
+        89,
+        69,
+        88
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      80.0,
+      50.0,
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 8,
+    "section_path": "Page 8 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p8-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "145 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "92 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "120 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "142 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "148 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "91 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "103 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "105 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "144 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "138 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "82 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "85 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "111 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 9,
+    "section_path": "Page 9 - Distribution Share (Legend Only)",
+    "element_id": "doc-syn-14-p9-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Alpha Line": 45,
+      "Beta Line": 35,
+      "Gamma Line": 20
+    },
+    "unit": "%",
+    "bbox": [
+      80.0,
+      50.0,
+      290.0,
+      420.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 9,
+    "section_path": "Page 9 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p9-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "147 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "119 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "122 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "142 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "130 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "100 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "82 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "124 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "125 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "125 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "118 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "110 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "144 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 10,
+    "section_path": "Page 10 - Stacked Plant Breakdown",
+    "element_id": "doc-syn-14-p10-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        741,
+        631,
+        920
+      ],
+      "scrap": [
+        72,
+        89,
+        43
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      80.0,
+      50.0,
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 10,
+    "section_path": "Page 10 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p10-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "115 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "108 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "99 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "123 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "130 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "97 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "91 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "128 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "146 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "109 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "133 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "110 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "99 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 11,
+    "section_path": "Page 11 - Distribution Share (Legend Only)",
+    "element_id": "doc-syn-14-p11-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Alpha Line": 45,
+      "Beta Line": 35,
+      "Gamma Line": 20
+    },
+    "unit": "%",
+    "bbox": [
+      80.0,
+      50.0,
+      290.0,
+      420.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 11,
+    "section_path": "Page 11 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p11-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "134 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "119 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "122 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "137 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "149 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "96 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "106 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "97 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "149 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "105 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "97 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "119 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "147 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 12,
+    "section_path": "Page 12 - Stacked Plant Breakdown",
+    "element_id": "doc-syn-14-p12-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        669,
+        820,
+        674
+      ],
+      "scrap": [
+        112,
+        60,
+        80
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      80.0,
+      50.0,
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 12,
+    "section_path": "Page 12 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p12-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "88 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "148 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "95 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "103 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "120 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "98 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "83 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "120 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "132 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "132 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "118 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "136 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "115 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 13,
+    "section_path": "Page 13 - Distribution Share (Legend Only)",
+    "element_id": "doc-syn-14-p13-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Alpha Line": 45,
+      "Beta Line": 35,
+      "Gamma Line": 20
+    },
+    "unit": "%",
+    "bbox": [
+      80.0,
+      50.0,
+      290.0,
+      420.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 13,
+    "section_path": "Page 13 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p13-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "99 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "104 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "93 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "96 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "103 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "83 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "114 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "109 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "109 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "109 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "83 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "125 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "90 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 14,
+    "section_path": "Page 14 - Stacked Plant Breakdown",
+    "element_id": "doc-syn-14-p14-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        844,
+        668,
+        857
+      ],
+      "scrap": [
+        117,
+        100,
+        87
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      80.0,
+      50.0,
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 14,
+    "section_path": "Page 14 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p14-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "103 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "129 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "142 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "140 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "97 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "100 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "104 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "108 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "84 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "132 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "81 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "114 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "132 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 15,
+    "section_path": "Page 15 - Distribution Share (Legend Only)",
+    "element_id": "doc-syn-14-p15-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Alpha Line": 45,
+      "Beta Line": 35,
+      "Gamma Line": 20
+    },
+    "unit": "%",
+    "bbox": [
+      80.0,
+      50.0,
+      290.0,
+      420.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 15,
+    "section_path": "Page 15 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p15-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "108 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "105 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "106 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "88 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "102 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "136 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "142 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "121 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "138 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "111 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "134 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "131 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "85 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 16,
+    "section_path": "Page 16 - Stacked Plant Breakdown",
+    "element_id": "doc-syn-14-p16-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        911,
+        794,
+        760
+      ],
+      "scrap": [
+        90,
+        118,
+        113
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      80.0,
+      50.0,
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 16,
+    "section_path": "Page 16 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p16-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "148 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "147 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "84 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "146 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "93 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "137 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "138 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "85 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "111 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "146 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "148 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "130 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "85 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 17,
+    "section_path": "Page 17 - Distribution Share (Legend Only)",
+    "element_id": "doc-syn-14-p17-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Alpha Line": 45,
+      "Beta Line": 35,
+      "Gamma Line": 20
+    },
+    "unit": "%",
+    "bbox": [
+      80.0,
+      50.0,
+      290.0,
+      420.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 17,
+    "section_path": "Page 17 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p17-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "129 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "146 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "86 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "104 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "117 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "136 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "130 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "118 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "116 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "139 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "101 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "134 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "117 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 18,
+    "section_path": "Page 18 - Stacked Plant Breakdown",
+    "element_id": "doc-syn-14-p18-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        913,
+        627,
+        864
+      ],
+      "scrap": [
+        58,
+        99,
+        97
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      80.0,
+      50.0,
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 18,
+    "section_path": "Page 18 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p18-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "91 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "144 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "94 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "103 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "149 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "97 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "130 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "132 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "121 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "137 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "83 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "102 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "138 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 19,
+    "section_path": "Page 19 - Distribution Share (Legend Only)",
+    "element_id": "doc-syn-14-p19-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Alpha Line": 45,
+      "Beta Line": 35,
+      "Gamma Line": 20
+    },
+    "unit": "%",
+    "bbox": [
+      80.0,
+      50.0,
+      290.0,
+      420.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 19,
+    "section_path": "Page 19 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p19-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "105 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "138 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "91 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "112 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "121 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "100 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "95 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "91 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "94 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "137 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "126 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "90 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "147 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 20,
+    "section_path": "Page 20 - Stacked Plant Breakdown",
+    "element_id": "doc-syn-14-p20-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        796,
+        861,
+        913
+      ],
+      "scrap": [
+        60,
+        88,
+        110
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      80.0,
+      50.0,
+      300.0,
+      450.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 20,
+    "section_path": "Page 20 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p20-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "128 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "85 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "101 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "122 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "99 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "100 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "98 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "102 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "86 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "133 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "119 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "119 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "137 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 21,
+    "section_path": "Page 21 - Distribution Share (Legend Only)",
+    "element_id": "doc-syn-14-p21-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Alpha Line": 45,
+      "Beta Line": 35,
+      "Gamma Line": 20
+    },
+    "unit": "%",
+    "bbox": [
+      80.0,
+      50.0,
+      290.0,
+      420.0
+    ]
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "document_title": "doc-syn-14.pdf",
+    "page": 21,
+    "section_path": "Page 21 - Component Inventory Specifications",
+    "element_id": "doc-syn-14-p21-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Subsystem ID",
+        "Part Description",
+        "Tolerance Spec",
+        "Status"
+      ],
+      [
+        "SYS-001",
+        "Valve Assembly 1",
+        "116 psi",
+        "VALID"
+      ],
+      [
+        "SYS-002",
+        "Valve Assembly 2",
+        "103 psi",
+        "VALID"
+      ],
+      [
+        "SYS-003",
+        "Valve Assembly 3",
+        "95 psi",
+        "VALID"
+      ],
+      [
+        "SYS-004",
+        "Valve Assembly 4",
+        "96 psi",
+        "VALID"
+      ],
+      [
+        "SYS-005",
+        "Valve Assembly 5",
+        "105 psi",
+        "VALID"
+      ],
+      [
+        "SYS-006",
+        "Valve Assembly 6",
+        "80 psi",
+        "VALID"
+      ],
+      [
+        "SYS-007",
+        "Valve Assembly 7",
+        "112 psi",
+        "VALID"
+      ],
+      [
+        "SYS-008",
+        "Valve Assembly 8",
+        "81 psi",
+        "VALID"
+      ],
+      [
+        "SYS-009",
+        "Valve Assembly 9",
+        "138 psi",
+        "VALID"
+      ],
+      [
+        "SYS-010",
+        "Valve Assembly 10",
+        "143 psi",
+        "VALID"
+      ],
+      [
+        "SYS-011",
+        "Valve Assembly 11",
+        "143 psi",
+        "VALID"
+      ],
+      [
+        "SYS-012",
+        "Valve Assembly 12",
+        "149 psi",
+        "VALID"
+      ],
+      [
+        "SYS-013",
+        "Valve Assembly 13",
+        "80 psi",
+        "VALID"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      310.0,
+      50.0,
+      580.0,
+      500.0
+    ]
+  }
+]

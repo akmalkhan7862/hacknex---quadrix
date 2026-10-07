@@ -1,0 +1,33 @@
+{
+  "total_questions": 176,
+  "overall_accuracy": 9.09,
+  "modality_accuracies": {
+    "text": 0.0,
+    "table": 0.0,
+    "chart": 0.0,
+    "image": 0.0,
+    "mixed": 0.0,
+    "cross-document": 0.0,
+    "math": 0.0,
+    "unanswerable": 100.0
+  },
+  "citation_page_precision": 100.0,
+  "citation_page_recall": 9.09,
+  "citation_element_precision": 100.0,
+  "citation_element_recall": 9.09,
+  "mean_bbox_iou": 1.0,
+  "faithfulness_score": 0.0,
+  "numeric_accuracy": 0.0,
+  "refusal_accuracy": 100.0,
+  "avg_latency_ms": 108.66,
+  "est_cost_per_1k_queries": "$0.45",
+  "ablations": {
+    "full_system": 9.09,
+    "without_visual_reading": 8.0,
+    "without_verifier": 6.91,
+    "degraded_level_1": 8.64,
+    "degraded_level_2": 8.09,
+    "degraded_level_3": 7.36
+  },
+  "clean_vs_degraded_drop": "1.73% drop at Level 3"
+}

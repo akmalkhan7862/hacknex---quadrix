@@ -47,10 +47,38 @@ def generate_llm_answer(question: str, context: str, evidence_items: List[Dict[s
     if not evidence_items or context == "NO_RELEVANT_EVIDENCE_FOUND":
         return NOT_FOUND_RESPONSE
         
+    openrouter_key = os.getenv("OPENROUTER_API_KEY")
     gemini_key = os.getenv("GEMINI_API_KEY")
     openai_key = os.getenv("OPENAI_API_KEY")
     
-    # 1. Try Gemini API if key is present
+    # 1. Try OpenRouter API if key is present
+    if openrouter_key:
+        try:
+            import openai
+            model = os.getenv("OPENROUTER_MODEL", "google/gemini-2.5-flash")
+            client = openai.OpenAI(
+                api_key=openrouter_key,
+                base_url="https://openrouter.ai/api/v1"
+            )
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": f"QUESTION: {question}\n\nEVIDENCE CONTEXT:\n{context}"}
+                ],
+                max_tokens=1000,
+                response_format={"type": "json_object"}
+            )
+            raw_text = response.choices[0].message.content.strip()
+            clean_json = re.sub(r"^```json\s*", "", raw_text)
+            clean_json = re.sub(r"\s*```$", "", clean_json)
+            parsed = json.loads(clean_json)
+            if isinstance(parsed, dict) and "answer" in parsed:
+                return parsed
+        except Exception as e:
+            print(f"[llm.py] OpenRouter API call failed/fallback: {e}")
+            
+    # 2. Try Gemini API if key is present
     if gemini_key:
         try:
             from google import genai
@@ -61,7 +89,6 @@ def generate_llm_answer(question: str, context: str, evidence_items: List[Dict[s
                 contents=prompt
             )
             raw_text = response.text.strip()
-            # Clean json fences
             clean_json = re.sub(r"^```json\s*", "", raw_text)
             clean_json = re.sub(r"\s*```$", "", clean_json)
             parsed = json.loads(clean_json)
@@ -70,7 +97,7 @@ def generate_llm_answer(question: str, context: str, evidence_items: List[Dict[s
         except Exception as e:
             print(f"[llm.py] Gemini API call failed/fallback: {e}")
             
-    # 2. Try OpenAI API if key is present
+    # 3. Try OpenAI API if key is present
     if openai_key:
         try:
             import openai
@@ -90,7 +117,7 @@ def generate_llm_answer(question: str, context: str, evidence_items: List[Dict[s
         except Exception as e:
             print(f"[llm.py] OpenAI API call failed/fallback: {e}")
 
-    # 3. Deterministic Evidence Extractor Fallback (No API Key or Offline)
+    # 4. Deterministic Evidence Extractor Fallback (No API Key or Offline)
     return _rule_based_fallback(question, evidence_items)
 
 def _rule_based_fallback(question: str, evidence_items: List[Dict[str, Any]]) -> Dict[str, Any]:

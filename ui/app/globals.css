@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #F4F1EA;
+  --paper-2: #EAE6DC;
+  --surface: #FBF9F4;
+  --ink: #14213D;
+  --ink-soft: #4A5568;
+  --rule: #CFC9BA;
+  --accent: #8C2F1B;
+  --mark: #F2D675;
+  --ok: #2F6B4F;
+  --warn: #9A6A00;
+  --bad: #8C2F1B;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+  line-height: 1.6;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Typography scale */
+h1, h2, h3, .font-serif-title {
+  font-family: 'Newsreader', Georgia, serif;
+  color: var(--ink);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: 44px; line-height: 1.15; }
+h2 { font-size: 28px; line-height: 1.25; }
+h3 { font-size: 20px; line-height: 1.3; }
+
+code, pre, .font-mono-data {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Hairline Rules */
+.border-hairline {
+  border-color: var(--rule);
+}
+
+.hairline-divider {
+  border-top: 1px solid var(--rule);
+}
+
+/* Highlight Mark */
+.mark-highlight {
+  background-color: var(--mark);
+  color: var(--ink);
+  padding: 2px 6px;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+/* Button Reset */
+button {
+  border-radius: 4px;
+}
