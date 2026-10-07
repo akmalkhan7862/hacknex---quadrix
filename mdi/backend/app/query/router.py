@@ -105,19 +105,29 @@ def strategy_to_engines(strategy: RetrievalStrategy) -> List[str]:
 
 class GraphRAGExtensionPoint:
     """
-    Stub extension point for Graph RAG retrieval.
-
-    Phase M will replace this with a real KnowledgeGraphRetriever.
-    The router already routes to GRAPH / CROSS_DOCUMENT strategies;
-    this class ensures nothing crashes before Phase M lands.
+    Extension point for Graph RAG retrieval delegating to GraphRetriever.
     """
 
+    def __init__(self, retriever: Optional[Any] = None):
+        if retriever is not None:
+            self._retriever = retriever
+        else:
+            try:
+                from backend.app.query.graph import global_graph_retriever
+                self._retriever = global_graph_retriever
+            except Exception:
+                self._retriever = None
+
     def retrieve(self, query_analysis: Dict[str, Any]) -> List[Dict[str, Any]]:
-        # Graph RAG not yet implemented — returns empty list with a status hint.
+        if self._retriever:
+            q = query_analysis.get("question", "")
+            return self._retriever.retrieve_raw(q)
         return []
 
     @property
     def status(self) -> str:
+        if self._retriever and getattr(self._retriever, "enabled", False):
+            return self._retriever.status()
         return "not_implemented"
 
 
