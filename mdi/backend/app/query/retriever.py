@@ -1,7 +1,7 @@
 """
 Retriever Module for MDI.
 
-Provides two interfaces:
+Provides:
 
 1. hybrid_retrieve(question, top_k) -> List[Dict]
         Legacy function — kept intact for all existing callers
@@ -16,16 +16,23 @@ Provides two interfaces:
           - is injected by default from module-level singletons so
             existing callers need zero changes
 
-Every result returned by VectorRetriever preserves:
+3. BM25Retriever (Phase E):
+        Typed class-based interface that:
+          - performs keyword search over BM25Index
+          - returns List[EvidenceUnit] or (element_id, score) ID references
+          - preserves full provenance and element_id mappings
+          - supports metadata filtering
+
+Every result returned preserves:
     element_id, doc_id, document_title, page, page_label,
-    section_path, element_type, content, vector_score
+    section_path, element_type, content, score
 """
 
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Tuple
 
 from backend.app.index.embeddings import generate_embedding, get_embedding_provider, EmbeddingProvider
 from backend.app.index.vector_store import VectorStore, global_vector_store
-from backend.app.index.bm25 import global_bm25_index
+from backend.app.index.bm25 import BM25Index, global_bm25_index
 from backend.app.query.schemas import EvidenceUnit
 
 
@@ -154,24 +161,6 @@ class VectorRetriever:
         """
         Embed the question, search the vector store, apply filters, and
         return typed EvidenceUnit objects.
-
-        Provenance fields guaranteed on every returned unit:
-            element_id, doc_id, document_title, page, page_label,
-            section_path, element_type, content
-
-        Parameters
-        ----------
-        question : str
-            Natural-language query to embed and search.
-        top_k : int
-            Maximum number of nearest-neighbour candidates to retrieve.
-        filters : dict | None
-            Optional metadata constraints (see _apply_metadata_filters).
-
-        Returns
-        -------
-        List[EvidenceUnit]
-            Retrieved units sorted by descending vector similarity.
         """
         if not question or not question.strip():
             return []
@@ -220,10 +209,6 @@ class VectorRetriever:
 
     @staticmethod
     def _to_evidence_unit(raw: Dict[str, Any]) -> EvidenceUnit:
-        """
-        Convert a raw vector-store result dict into a typed EvidenceUnit.
-        Provenance fields are mapped explicitly; extra keys go into metadata.
-        """
         known_keys = {
             "doc_id", "document_title", "page", "page_label", "section_path",
             "element_type", "element_id", "content", "table_json",
@@ -252,7 +237,95 @@ class VectorRetriever:
 
 
 # ---------------------------------------------------------------------------
-# Module-level singleton (used by future HybridRetriever in Phase F)
+# BM25Retriever — Phase E typed class
+# ---------------------------------------------------------------------------
+
+class BM25Retriever:
+    """
+    Keyword BM25 retrieval over BM25Index.
+    Returns typed EvidenceUnit objects with element_id references and provenance preserved.
+    Supports reference-only retrieval and metadata filtering.
+    """
+
+    def __init__(self, index: Optional[BM25Index] = None):
+        self._index: BM25Index = index if index is not None else global_bm25_index
+
+    def retrieve(
+        self,
+        question: str,
+        top_k: int = 10,
+        filters: Optional[Dict[str, Any]] = None,
+    ) -> List[EvidenceUnit]:
+        """
+        Execute BM25 keyword search, apply metadata filters, and return typed EvidenceUnit objects.
+        """
+        if not question or not question.strip():
+            return []
+        raw_hits = self._index.search(query=question, top_k=top_k, filters=filters)
+        return [self._to_evidence_unit(hit) for hit in raw_hits]
+
+    def retrieve_ids(
+        self,
+        question: str,
+        top_k: int = 10,
+        filters: Optional[Dict[str, Any]] = None,
+    ) -> List[Tuple[str, float]]:
+        """
+        Return (element_id, score) pairs without cloning full records.
+        """
+        if not question or not question.strip():
+            return []
+        return self._index.search_ids(query=question, top_k=top_k, filters=filters)
+
+    def retrieve_raw(
+        self,
+        question: str,
+        top_k: int = 10,
+        filters: Optional[Dict[str, Any]] = None,
+    ) -> List[Dict[str, Any]]:
+        """
+        Return raw result dicts with bm25_score populated.
+        """
+        if not question or not question.strip():
+            return []
+        return self._index.search(query=question, top_k=top_k, filters=filters)
+
+    @property
+    def index(self) -> BM25Index:
+        return self._index
+
+    @staticmethod
+    def _to_evidence_unit(raw: Dict[str, Any]) -> EvidenceUnit:
+        known_keys = {
+            "doc_id", "document_title", "page", "page_label", "section_path",
+            "element_type", "element_id", "content", "table_json",
+            "table_markdown", "vector_score", "bm25_score", "score",
+        }
+        extra_meta = {k: v for k, v in raw.items() if k not in known_keys}
+
+        return EvidenceUnit(
+            doc_id=raw.get("doc_id", "unknown_doc"),
+            document_title=raw.get("document_title", "Unknown Document"),
+            page=raw.get("page", 1),
+            page_label=raw.get("page_label", f"Page {raw.get('page', 1)}"),
+            section_path=raw.get("section_path", "Unknown Section"),
+            element_type=raw.get("element_type", "text"),
+            element_id=raw.get("element_id", "unknown_id"),
+            content=raw.get("content", ""),
+            table_json=raw.get("table_json"),
+            table_markdown=raw.get("table_markdown"),
+            score=raw.get("bm25_score") or raw.get("score"),
+            metadata={
+                "vector_score": raw.get("vector_score", 0.0),
+                "bm25_score": raw.get("bm25_score", 0.0),
+                **extra_meta,
+            },
+        )
+
+
+# ---------------------------------------------------------------------------
+# Module-level singletons
 # ---------------------------------------------------------------------------
 
 global_vector_retriever = VectorRetriever()
+global_bm25_retriever = BM25Retriever()
