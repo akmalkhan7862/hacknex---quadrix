@@ -8,20 +8,17 @@ Provides:
         (api/query.py, test_all.py, etc.).
 
 2. VectorRetriever (Phase D):
-        Typed class-based interface that:
-          - accepts an EmbeddingProvider and a VectorStore
-          - returns List[EvidenceUnit] with full provenance guaranteed
-          - supports metadata filtering (document_id, page, section,
-            content_type / element_type, period keywords)
-          - is injected by default from module-level singletons so
-            existing callers need zero changes
+        Typed class-based interface for dense semantic retrieval.
+        Supports metadata filtering and dependency injection.
 
 3. BM25Retriever (Phase E):
-        Typed class-based interface that:
-          - performs keyword search over BM25Index
-          - returns List[EvidenceUnit] or (element_id, score) ID references
-          - preserves full provenance and element_id mappings
-          - supports metadata filtering
+        Typed class-based interface for keyword retrieval over BM25Index.
+        Supports metadata filtering and lightweight ID reference retrieval.
+
+4. HybridRetriever & reciprocal_rank_fusion (Phase F):
+        Combines Vector search + BM25 search with Reciprocal Rank Fusion (RRF)
+        and metadata filtering (document_id, period, content_type, section, entity).
+        Provides vector-only, BM25-only, and hybrid modes.
 
 Every result returned preserves:
     element_id, doc_id, document_title, page, page_label,
@@ -90,6 +87,7 @@ def _apply_metadata_filters(
     content_type  : str  — match item["element_type"]  (text | table | chart | image)
     section       : str  — substring match on item["section_path"]
     period        : str  — substring match on item["content"]  (e.g. "Q4")
+    entity        : str  — substring match on item["content"], section_path, or document_title
     page          : int  — exact match on item["page"]
     """
     if not filters:
@@ -109,11 +107,65 @@ def _apply_metadata_filters(
         if "period" in filters:
             if filters["period"].upper() not in item.get("content", "").upper():
                 continue
+        if "entity" in filters:
+            e_str = str(filters["entity"]).lower()
+            content_lower = item.get("content", "").lower()
+            section_lower = item.get("section_path", "").lower()
+            doc_lower = item.get("document_title", "").lower()
+            if e_str not in content_lower and e_str not in section_lower and e_str not in doc_lower:
+                continue
         if "page" in filters:
             if item.get("page") != filters["page"]:
                 continue
         out.append(item)
     return out
+
+
+# ---------------------------------------------------------------------------
+# Reciprocal Rank Fusion (RRF)
+# ---------------------------------------------------------------------------
+
+def reciprocal_rank_fusion(
+    ranked_lists: List[List[Dict[str, Any]]],
+    rrf_k: int = 60,
+    top_n: int = 10,
+) -> List[Dict[str, Any]]:
+    """
+    Combine multiple ranked candidate lists using Reciprocal Rank Fusion (RRF).
+    score = sum(1 / (rrf_k + rank))
+    Preserves vector_score, bm25_score, and all source metadata without data loss.
+    """
+    fused_scores: Dict[str, float] = {}
+    item_map: Dict[str, Dict[str, Any]] = {}
+
+    for ranked_list in ranked_lists:
+        for rank, item in enumerate(ranked_list, start=1):
+            elem_id = item.get("element_id")
+            if not elem_id:
+                continue
+            if elem_id not in item_map:
+                item_map[elem_id] = dict(item)
+            else:
+                existing = item_map[elem_id]
+                if "vector_score" in item:
+                    existing["vector_score"] = max(existing.get("vector_score", 0.0), item["vector_score"])
+                if "bm25_score" in item:
+                    existing["bm25_score"] = max(existing.get("bm25_score", 0.0), item["bm25_score"])
+
+            rrf_score = 1.0 / (rrf_k + rank)
+            fused_scores[elem_id] = fused_scores.get(elem_id, 0.0) + rrf_score
+
+    sorted_ids = sorted(fused_scores.keys(), key=lambda eid: fused_scores[eid], reverse=True)
+
+    results = []
+    for eid in sorted_ids[:top_n]:
+        item = item_map[eid]
+        fused = round(fused_scores[eid], 6)
+        item["score"] = fused
+        item["rrf_score"] = fused
+        results.append(item)
+
+    return results
 
 
 # ---------------------------------------------------------------------------
@@ -123,17 +175,6 @@ def _apply_metadata_filters(
 class VectorRetriever:
     """
     Semantic vector retrieval over the VectorStore.
-
-    Embeds the query via EmbeddingProvider, searches the VectorStore for
-    the top-k nearest neighbours, applies optional metadata filters, and
-    returns typed EvidenceUnit objects with full provenance preserved.
-
-    Parameters
-    ----------
-    embedding_provider : EmbeddingProvider | None
-        Provider used to embed queries.  Defaults to the module singleton.
-    vector_store : VectorStore | None
-        Store to search.  Defaults to global_vector_store singleton.
     """
 
     def __init__(
@@ -150,32 +191,18 @@ class VectorRetriever:
             else global_vector_store
         )
 
-    # ── Core retrieval ────────────────────────────────────────────────────
-
     def retrieve(
         self,
         question: str,
         top_k: int = 10,
         filters: Optional[Dict[str, Any]] = None,
     ) -> List[EvidenceUnit]:
-        """
-        Embed the question, search the vector store, apply filters, and
-        return typed EvidenceUnit objects.
-        """
         if not question or not question.strip():
             return []
-
-        # Embed query
         q_vec = self._embedder.embed_text(question)
-
-        # Search vector store — returns raw dicts with vector_score
         raw_hits: List[Dict[str, Any]] = self._store.search(q_vec, top_k=top_k)
-
-        # Apply optional metadata filters
         if filters:
             raw_hits = _apply_metadata_filters(raw_hits, filters)
-
-        # Convert to typed EvidenceUnit, preserving all provenance
         return [self._to_evidence_unit(hit) for hit in raw_hits]
 
     def retrieve_raw(
@@ -184,9 +211,6 @@ class VectorRetriever:
         top_k: int = 10,
         filters: Optional[Dict[str, Any]] = None,
     ) -> List[Dict[str, Any]]:
-        """
-        Same as retrieve() but returns raw dicts (for hybrid fusion use).
-        """
         if not question or not question.strip():
             return []
         q_vec = self._embedder.embed_text(question)
@@ -194,8 +218,6 @@ class VectorRetriever:
         if filters:
             raw_hits = _apply_metadata_filters(raw_hits, filters)
         return raw_hits
-
-    # ── Properties ────────────────────────────────────────────────────────
 
     @property
     def embedding_provider(self) -> EmbeddingProvider:
@@ -205,14 +227,12 @@ class VectorRetriever:
     def vector_store(self) -> VectorStore:
         return self._store
 
-    # ── Internal helpers ──────────────────────────────────────────────────
-
     @staticmethod
     def _to_evidence_unit(raw: Dict[str, Any]) -> EvidenceUnit:
         known_keys = {
             "doc_id", "document_title", "page", "page_label", "section_path",
             "element_type", "element_id", "content", "table_json",
-            "table_markdown", "vector_score", "bm25_score", "score",
+            "table_markdown", "vector_score", "bm25_score", "score", "rrf_score",
         }
         extra_meta = {k: v for k, v in raw.items() if k not in known_keys}
 
@@ -243,8 +263,6 @@ class VectorRetriever:
 class BM25Retriever:
     """
     Keyword BM25 retrieval over BM25Index.
-    Returns typed EvidenceUnit objects with element_id references and provenance preserved.
-    Supports reference-only retrieval and metadata filtering.
     """
 
     def __init__(self, index: Optional[BM25Index] = None):
@@ -256,9 +274,6 @@ class BM25Retriever:
         top_k: int = 10,
         filters: Optional[Dict[str, Any]] = None,
     ) -> List[EvidenceUnit]:
-        """
-        Execute BM25 keyword search, apply metadata filters, and return typed EvidenceUnit objects.
-        """
         if not question or not question.strip():
             return []
         raw_hits = self._index.search(query=question, top_k=top_k, filters=filters)
@@ -270,9 +285,6 @@ class BM25Retriever:
         top_k: int = 10,
         filters: Optional[Dict[str, Any]] = None,
     ) -> List[Tuple[str, float]]:
-        """
-        Return (element_id, score) pairs without cloning full records.
-        """
         if not question or not question.strip():
             return []
         return self._index.search_ids(query=question, top_k=top_k, filters=filters)
@@ -283,9 +295,6 @@ class BM25Retriever:
         top_k: int = 10,
         filters: Optional[Dict[str, Any]] = None,
     ) -> List[Dict[str, Any]]:
-        """
-        Return raw result dicts with bm25_score populated.
-        """
         if not question or not question.strip():
             return []
         return self._index.search(query=question, top_k=top_k, filters=filters)
@@ -299,7 +308,7 @@ class BM25Retriever:
         known_keys = {
             "doc_id", "document_title", "page", "page_label", "section_path",
             "element_type", "element_id", "content", "table_json",
-            "table_markdown", "vector_score", "bm25_score", "score",
+            "table_markdown", "vector_score", "bm25_score", "score", "rrf_score",
         }
         extra_meta = {k: v for k, v in raw.items() if k not in known_keys}
 
@@ -324,8 +333,126 @@ class BM25Retriever:
 
 
 # ---------------------------------------------------------------------------
+# HybridRetriever — Phase F typed class
+# ---------------------------------------------------------------------------
+
+class HybridRetriever:
+    """
+    Hybrid Retriever combining Vector search and BM25 search with
+    Reciprocal Rank Fusion (RRF) and metadata filtering.
+    """
+
+    def __init__(
+        self,
+        vector_retriever: Optional[VectorRetriever] = None,
+        bm25_retriever: Optional[BM25Retriever] = None,
+        rrf_k: int = 60,
+    ):
+        self._vector_retriever: VectorRetriever = (
+            vector_retriever if vector_retriever is not None
+            else global_vector_retriever
+        )
+        self._bm25_retriever: BM25Retriever = (
+            bm25_retriever if bm25_retriever is not None
+            else global_bm25_retriever
+        )
+        self.rrf_k: int = rrf_k
+
+    def retrieve(
+        self,
+        question: str,
+        top_k: int = 10,
+        filters: Optional[Dict[str, Any]] = None,
+    ) -> List[EvidenceUnit]:
+        """
+        Execute Hybrid retrieval: Vector top-k + BM25 top-k, metadata filtering, and RRF fusion.
+        """
+        if not question or not question.strip():
+            return []
+
+        candidates = self.retrieve_raw(question=question, top_k=top_k, filters=filters)
+        return [self._to_evidence_unit(c) for c in candidates]
+
+    def retrieve_vector_only(
+        self,
+        question: str,
+        top_k: int = 10,
+        filters: Optional[Dict[str, Any]] = None,
+    ) -> List[EvidenceUnit]:
+        """Execute vector-only retrieval."""
+        return self._vector_retriever.retrieve(question=question, top_k=top_k, filters=filters)
+
+    def retrieve_bm25_only(
+        self,
+        question: str,
+        top_k: int = 10,
+        filters: Optional[Dict[str, Any]] = None,
+    ) -> List[EvidenceUnit]:
+        """Execute BM25-only retrieval."""
+        return self._bm25_retriever.retrieve(question=question, top_k=top_k, filters=filters)
+
+    def retrieve_raw(
+        self,
+        question: str,
+        top_k: int = 10,
+        filters: Optional[Dict[str, Any]] = None,
+    ) -> List[Dict[str, Any]]:
+        """
+        Execute hybrid search and return fused raw candidate dicts with RRF scores.
+        """
+        fetch_k = max(top_k * 2, 10)
+        vec_candidates = self._vector_retriever.retrieve_raw(question=question, top_k=fetch_k, filters=filters)
+        bm25_candidates = self._bm25_retriever.retrieve_raw(question=question, top_k=fetch_k, filters=filters)
+
+        fused = reciprocal_rank_fusion(
+            ranked_lists=[vec_candidates, bm25_candidates],
+            rrf_k=self.rrf_k,
+            top_n=top_k,
+        )
+        return fused
+
+    @property
+    def vector_retriever(self) -> VectorRetriever:
+        return self._vector_retriever
+
+    @property
+    def bm25_retriever(self) -> BM25Retriever:
+        return self._bm25_retriever
+
+    @staticmethod
+    def _to_evidence_unit(raw: Dict[str, Any]) -> EvidenceUnit:
+        known_keys = {
+            "doc_id", "document_title", "page", "page_label", "section_path",
+            "element_type", "element_id", "content", "table_json",
+            "table_markdown", "vector_score", "bm25_score", "score", "rrf_score",
+        }
+        extra_meta = {k: v for k, v in raw.items() if k not in known_keys}
+
+        return EvidenceUnit(
+            doc_id=raw.get("doc_id", "unknown_doc"),
+            document_title=raw.get("document_title", "Unknown Document"),
+            page=raw.get("page", 1),
+            page_label=raw.get("page_label", f"Page {raw.get('page', 1)}"),
+            section_path=raw.get("section_path", "Unknown Section"),
+            element_type=raw.get("element_type", "text"),
+            element_id=raw.get("element_id", "unknown_id"),
+            content=raw.get("content", ""),
+            table_json=raw.get("table_json"),
+            table_markdown=raw.get("table_markdown"),
+            score=raw.get("score") or raw.get("rrf_score"),
+            metadata={
+                "vector_score": raw.get("vector_score", 0.0),
+                "bm25_score": raw.get("bm25_score", 0.0),
+                "rrf_score": raw.get("rrf_score", 0.0),
+                **extra_meta,
+            },
+        )
+
+
+# ---------------------------------------------------------------------------
 # Module-level singletons
 # ---------------------------------------------------------------------------
 
 global_vector_retriever = VectorRetriever()
 global_bm25_retriever = BM25Retriever()
+global_hybrid_retriever = HybridRetriever()
