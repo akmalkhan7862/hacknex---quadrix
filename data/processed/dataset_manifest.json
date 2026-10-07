@@ -1,0 +1,212 @@
+[
+  {
+    "doc_id": "doc-q2-eff",
+    "title": "Q2 Production Efficiency Report",
+    "pages": 22,
+    "pdf_path": "data\\raw\\doc-q2-eff_Q2_Production_Efficiency_Report.pdf",
+    "ground_truth_count": 45
+  },
+  {
+    "doc_id": "doc-q4-eff",
+    "title": "Q4 Production Efficiency Report",
+    "pages": 22,
+    "pdf_path": "data\\raw\\doc-q4-eff_Q4_Production_Efficiency_Report.pdf",
+    "ground_truth_count": 45
+  },
+  {
+    "doc_id": "doc-syn-01",
+    "title": "Supply_Chain Performance Report 2021",
+    "pages": 23,
+    "pdf_path": "data\\raw\\doc-syn-01_Supply_Chain_Performance_Report_2021.pdf",
+    "ground_truth_count": 47
+  },
+  {
+    "doc_id": "doc-syn-02",
+    "title": "Quality_Control Performance Report 2022",
+    "pages": 22,
+    "pdf_path": "data\\raw\\doc-syn-02_Quality_Control_Performance_Report_2022.pdf",
+    "ground_truth_count": 45
+  },
+  {
+    "doc_id": "doc-syn-03",
+    "title": "Energy_Efficiency Performance Report 2023",
+    "pages": 20,
+    "pdf_path": "data\\raw\\doc-syn-03_Energy_Efficiency_Performance_Report_2023.pdf",
+    "ground_truth_count": 41
+  },
+  {
+    "doc_id": "doc-syn-04",
+    "title": "Energy_Efficiency Performance Report 2024",
+    "pages": 20,
+    "pdf_path": "data\\raw\\doc-syn-04_Energy_Efficiency_Performance_Report_2024.pdf",
+    "ground_truth_count": 41
+  },
+  {
+    "doc_id": "doc-syn-05",
+    "title": "Financial_Audit Performance Report 2025",
+    "pages": 22,
+    "pdf_path": "data\\raw\\doc-syn-05_Financial_Audit_Performance_Report_2025.pdf",
+    "ground_truth_count": 45
+  },
+  {
+    "doc_id": "doc-syn-06",
+    "title": "Supply_Chain Performance Report 2020",
+    "pages": 21,
+    "pdf_path": "data\\raw\\doc-syn-06_Supply_Chain_Performance_Report_2020.pdf",
+    "ground_truth_count": 43
+  },
+  {
+    "doc_id": "doc-syn-07",
+    "title": "Supply_Chain Performance Report 2021",
+    "pages": 25,
+    "pdf_path": "data\\raw\\doc-syn-07_Supply_Chain_Performance_Report_2021.pdf",
+    "ground_truth_count": 51
+  },
+  {
+    "doc_id": "doc-syn-08",
+    "title": "Operations Performance Report 2022",
+    "pages": 22,
+    "pdf_path": "data\\raw\\doc-syn-08_Operations_Performance_Report_2022.pdf",
+    "ground_truth_count": 45
+  },
+  {
+    "doc_id": "doc-syn-09",
+    "title": "Supply_Chain Performance Report 2023",
+    "pages": 24,
+    "pdf_path": "data\\raw\\doc-syn-09_Supply_Chain_Performance_Report_2023.pdf",
+    "ground_truth_count": 49
+  },
+  {
+    "doc_id": "doc-syn-10",
+    "title": "Supply_Chain Performance Report 2024",
+    "pages": 23,
+    "pdf_path": "data\\raw\\doc-syn-10_Supply_Chain_Performance_Report_2024.pdf",
+    "ground_truth_count": 47
+  },
+  {
+    "doc_id": "doc-syn-11",
+    "title": "Financial_Audit Performance Report 2025",
+    "pages": 23,
+    "pdf_path": "data\\raw\\doc-syn-11_Financial_Audit_Performance_Report_2025.pdf",
+    "ground_truth_count": 47
+  },
+  {
+    "doc_id": "doc-syn-12",
+    "title": "Quality_Control Performance Report 2020",
+    "pages": 21,
+    "pdf_path": "data\\raw\\doc-syn-12_Quality_Control_Performance_Report_2020.pdf",
+    "ground_truth_count": 43
+  },
+  {
+    "doc_id": "doc-syn-13",
+    "title": "Financial_Audit Performance Report 2021",
+    "pages": 23,
+    "pdf_path": "data\\raw\\doc-syn-13_Financial_Audit_Performance_Report_2021.pdf",
+    "ground_truth_count": 47
+  },
+  {
+    "doc_id": "doc-syn-14",
+    "title": "Supply_Chain Performance Report 2022",
+    "pages": 22,
+    "pdf_path": "data\\raw\\doc-syn-14_Supply_Chain_Performance_Report_2022.pdf",
+    "ground_truth_count": 45
+  },
+  {
+    "doc_id": "doc-syn-15",
+    "title": "Operations Performance Report 2023",
+    "pages": 24,
+    "pdf_path": "data\\raw\\doc-syn-15_Operations_Performance_Report_2023.pdf",
+    "ground_truth_count": 49
+  },
+  {
+    "doc_id": "doc-syn-16",
+    "title": "Quality_Control Performance Report 2024",
+    "pages": 20,
+    "pdf_path": "data\\raw\\doc-syn-16_Quality_Control_Performance_Report_2024.pdf",
+    "ground_truth_count": 41
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "title": "Energy_Efficiency Performance Report 2025",
+    "pages": 24,
+    "pdf_path": "data\\raw\\doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "ground_truth_count": 49
+  },
+  {
+    "doc_id": "doc-syn-18",
+    "title": "Operations Performance Report 2020",
+    "pages": 21,
+    "pdf_path": "data\\raw\\doc-syn-18_Operations_Performance_Report_2020.pdf",
+    "ground_truth_count": 43
+  },
+  {
+    "doc_id": "doc-syn-19",
+    "title": "Financial_Audit Performance Report 2021",
+    "pages": 25,
+    "pdf_path": "data\\raw\\doc-syn-19_Financial_Audit_Performance_Report_2021.pdf",
+    "ground_truth_count": 51
+  },
+  {
+    "doc_id": "doc-syn-20",
+    "title": "Energy_Efficiency Performance Report 2022",
+    "pages": 23,
+    "pdf_path": "data\\raw\\doc-syn-20_Energy_Efficiency_Performance_Report_2022.pdf",
+    "ground_truth_count": 47
+  },
+  {
+    "doc_id": "doc-syn-21",
+    "title": "Operations Performance Report 2023",
+    "pages": 24,
+    "pdf_path": "data\\raw\\doc-syn-21_Operations_Performance_Report_2023.pdf",
+    "ground_truth_count": 49
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "title": "Financial_Audit Performance Report 2024",
+    "pages": 21,
+    "pdf_path": "data\\raw\\doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "ground_truth_count": 43
+  },
+  {
+    "doc_id": "doc-syn-23",
+    "title": "Operations Performance Report 2025",
+    "pages": 22,
+    "pdf_path": "data\\raw\\doc-syn-23_Operations_Performance_Report_2025.pdf",
+    "ground_truth_count": 45
+  },
+  {
+    "doc_id": "doc-syn-24",
+    "title": "Financial_Audit Performance Report 2020",
+    "pages": 22,
+    "pdf_path": "data\\raw\\doc-syn-24_Financial_Audit_Performance_Report_2020.pdf",
+    "ground_truth_count": 45
+  },
+  {
+    "doc_id": "doc-syn-25",
+    "title": "Supply_Chain Performance Report 2021",
+    "pages": 22,
+    "pdf_path": "data\\raw\\doc-syn-25_Supply_Chain_Performance_Report_2021.pdf",
+    "ground_truth_count": 45
+  },
+  {
+    "doc_id": "doc-syn-26",
+    "title": "Financial_Audit Performance Report 2022",
+    "pages": 23,
+    "pdf_path": "data\\raw\\doc-syn-26_Financial_Audit_Performance_Report_2022.pdf",
+    "ground_truth_count": 47
+  },
+  {
+    "doc_id": "doc-syn-27",
+    "title": "Operations Performance Report 2023",
+    "pages": 20,
+    "pdf_path": "data\\raw\\doc-syn-27_Operations_Performance_Report_2023.pdf",
+    "ground_truth_count": 41
+  },
+  {
+    "doc_id": "doc-syn-28",
+    "title": "Financial_Audit Performance Report 2024",
+    "pages": 23,
+    "pdf_path": "data\\raw\\doc-syn-28_Financial_Audit_Performance_Report_2024.pdf",
+    "ground_truth_count": 47
+  }
+]

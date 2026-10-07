@@ -1,0 +1,2696 @@
+[
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 1,
+    "section_path": "1. Executive Summary & Production Efficiency Analysis",
+    "element_id": "doc-syn-22-p1-text-01",
+    "element_type": "text",
+    "value": "During the operational assessment of Financial_Audit Performance Report 2024, production efficiency experienced variance. The primary root cause for downtime in Q2 was unexpected hydraulic failure in Pump-04, whereas in Q4 the downtime was driven by supply chain shortages of raw titanium alloy.",
+    "unit": null,
+    "bbox": [
+      50,
+      50,
+      150,
+      550
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 1,
+    "section_path": "2. Manufacturing Metrics & Output Table",
+    "element_id": "doc-syn-22-p1-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Metric Category",
+        "Quarter Baseline",
+        "Actual Output*",
+        "Efficiency Rate (%)"
+      ],
+      [
+        "Line Alpha (Heavy)",
+        "1200 Units/Day",
+        "1621 Units/Day",
+        "70.3%"
+      ],
+      [
+        "Line Beta (Light)",
+        "800 Units/Day",
+        "1134 Units/Day",
+        "63.3%"
+      ],
+      [
+        "Total Operational Output",
+        "2000 Units/Day",
+        "2755 Units/Day",
+        "66.8%"
+      ]
+    ],
+    "unit": "Units/Day",
+    "bbox": [
+      200,
+      50,
+      350,
+      550
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 1,
+    "section_path": "3. Dual-Axis Production vs Efficiency Trend",
+    "element_id": "doc-syn-22-p1-chart-01",
+    "element_type": "chart",
+    "value": {
+      "production": [
+        1536,
+        1741,
+        1310
+      ],
+      "efficiency": [
+        80.99816110689798,
+        92.69438912087787,
+        91.94327283221405
+      ]
+    },
+    "unit": "Units & %",
+    "bbox": [
+      400,
+      50,
+      650,
+      550
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 2,
+    "section_path": "Page 2 - Plant Breakdown",
+    "element_id": "doc-syn-22-p2-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        751,
+        694,
+        654
+      ],
+      "scrap": [
+        83,
+        137,
+        150
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 2,
+    "section_path": "Page 2 - Component Specs",
+    "element_id": "doc-syn-22-p2-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 3,
+    "section_path": "Page 3 - Distribution Share",
+    "element_id": "doc-syn-22-p3-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 3,
+    "section_path": "Page 3 - Component Specs",
+    "element_id": "doc-syn-22-p3-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 4,
+    "section_path": "Page 4 - Plant Breakdown",
+    "element_id": "doc-syn-22-p4-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        600,
+        598,
+        632
+      ],
+      "scrap": [
+        79,
+        128,
+        93
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 4,
+    "section_path": "Page 4 - Component Specs",
+    "element_id": "doc-syn-22-p4-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 5,
+    "section_path": "Page 5 - Distribution Share",
+    "element_id": "doc-syn-22-p5-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 5,
+    "section_path": "Page 5 - Component Specs",
+    "element_id": "doc-syn-22-p5-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 6,
+    "section_path": "Page 6 - Plant Breakdown",
+    "element_id": "doc-syn-22-p6-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        798,
+        723,
+        699
+      ],
+      "scrap": [
+        98,
+        90,
+        125
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 6,
+    "section_path": "Page 6 - Component Specs",
+    "element_id": "doc-syn-22-p6-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 7,
+    "section_path": "Page 7 - Distribution Share",
+    "element_id": "doc-syn-22-p7-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 7,
+    "section_path": "Page 7 - Component Specs",
+    "element_id": "doc-syn-22-p7-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 8,
+    "section_path": "Page 8 - Plant Breakdown",
+    "element_id": "doc-syn-22-p8-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        762,
+        705,
+        524
+      ],
+      "scrap": [
+        81,
+        122,
+        122
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 8,
+    "section_path": "Page 8 - Component Specs",
+    "element_id": "doc-syn-22-p8-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 9,
+    "section_path": "Page 9 - Distribution Share",
+    "element_id": "doc-syn-22-p9-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 9,
+    "section_path": "Page 9 - Component Specs",
+    "element_id": "doc-syn-22-p9-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 10,
+    "section_path": "Page 10 - Plant Breakdown",
+    "element_id": "doc-syn-22-p10-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        648,
+        546,
+        869
+      ],
+      "scrap": [
+        95,
+        69,
+        144
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 10,
+    "section_path": "Page 10 - Component Specs",
+    "element_id": "doc-syn-22-p10-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 11,
+    "section_path": "Page 11 - Distribution Share",
+    "element_id": "doc-syn-22-p11-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 11,
+    "section_path": "Page 11 - Component Specs",
+    "element_id": "doc-syn-22-p11-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 12,
+    "section_path": "Page 12 - Plant Breakdown",
+    "element_id": "doc-syn-22-p12-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        584,
+        864,
+        585
+      ],
+      "scrap": [
+        52,
+        67,
+        138
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 12,
+    "section_path": "Page 12 - Component Specs",
+    "element_id": "doc-syn-22-p12-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 13,
+    "section_path": "Page 13 - Distribution Share",
+    "element_id": "doc-syn-22-p13-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 13,
+    "section_path": "Page 13 - Component Specs",
+    "element_id": "doc-syn-22-p13-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 14,
+    "section_path": "Page 14 - Plant Breakdown",
+    "element_id": "doc-syn-22-p14-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        894,
+        868,
+        547
+      ],
+      "scrap": [
+        133,
+        138,
+        50
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 14,
+    "section_path": "Page 14 - Component Specs",
+    "element_id": "doc-syn-22-p14-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 15,
+    "section_path": "Page 15 - Distribution Share",
+    "element_id": "doc-syn-22-p15-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 15,
+    "section_path": "Page 15 - Component Specs",
+    "element_id": "doc-syn-22-p15-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 16,
+    "section_path": "Page 16 - Plant Breakdown",
+    "element_id": "doc-syn-22-p16-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        897,
+        731,
+        577
+      ],
+      "scrap": [
+        65,
+        146,
+        87
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 16,
+    "section_path": "Page 16 - Component Specs",
+    "element_id": "doc-syn-22-p16-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 17,
+    "section_path": "Page 17 - Distribution Share",
+    "element_id": "doc-syn-22-p17-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 17,
+    "section_path": "Page 17 - Component Specs",
+    "element_id": "doc-syn-22-p17-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 18,
+    "section_path": "Page 18 - Plant Breakdown",
+    "element_id": "doc-syn-22-p18-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        567,
+        648,
+        682
+      ],
+      "scrap": [
+        123,
+        96,
+        136
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 18,
+    "section_path": "Page 18 - Component Specs",
+    "element_id": "doc-syn-22-p18-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 19,
+    "section_path": "Page 19 - Distribution Share",
+    "element_id": "doc-syn-22-p19-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 19,
+    "section_path": "Page 19 - Component Specs",
+    "element_id": "doc-syn-22-p19-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 20,
+    "section_path": "Page 20 - Plant Breakdown",
+    "element_id": "doc-syn-22-p20-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        852,
+        560,
+        683
+      ],
+      "scrap": [
+        73,
+        113,
+        72
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 20,
+    "section_path": "Page 20 - Component Specs",
+    "element_id": "doc-syn-22-p20-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 21,
+    "section_path": "Page 21 - Distribution Share",
+    "element_id": "doc-syn-22-p21-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-22",
+    "document_title": "doc-syn-22_Financial_Audit_Performance_Report_2024.pdf",
+    "page": 21,
+    "section_path": "Page 21 - Component Specs",
+    "element_id": "doc-syn-22-p21-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  }
+]

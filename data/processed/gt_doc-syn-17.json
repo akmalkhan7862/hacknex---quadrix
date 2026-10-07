@@ -1,0 +1,3091 @@
+[
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 1,
+    "section_path": "1. Executive Summary & Production Efficiency Analysis",
+    "element_id": "doc-syn-17-p1-text-01",
+    "element_type": "text",
+    "value": "During the operational assessment of Energy_Efficiency Performance Report 2025, production efficiency experienced variance. The primary root cause for downtime in Q2 was unexpected hydraulic failure in Pump-04, whereas in Q4 the downtime was driven by supply chain shortages of raw titanium alloy.",
+    "unit": null,
+    "bbox": [
+      50,
+      50,
+      150,
+      550
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 1,
+    "section_path": "2. Manufacturing Metrics & Output Table",
+    "element_id": "doc-syn-17-p1-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "Metric Category",
+        "Quarter Baseline",
+        "Actual Output*",
+        "Efficiency Rate (%)"
+      ],
+      [
+        "Line Alpha (Heavy)",
+        "1200 Units/Day",
+        "1029 Units/Day",
+        "81.5%"
+      ],
+      [
+        "Line Beta (Light)",
+        "800 Units/Day",
+        "720 Units/Day",
+        "73.4%"
+      ],
+      [
+        "Total Operational Output",
+        "2000 Units/Day",
+        "1749 Units/Day",
+        "77.4%"
+      ]
+    ],
+    "unit": "Units/Day",
+    "bbox": [
+      200,
+      50,
+      350,
+      550
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 1,
+    "section_path": "3. Dual-Axis Production vs Efficiency Trend",
+    "element_id": "doc-syn-17-p1-chart-01",
+    "element_type": "chart",
+    "value": {
+      "production": [
+        1716,
+        1357,
+        1247
+      ],
+      "efficiency": [
+        83.06548137999815,
+        94.07304660669689,
+        80.38585172978375
+      ]
+    },
+    "unit": "Units & %",
+    "bbox": [
+      400,
+      50,
+      650,
+      550
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 2,
+    "section_path": "Page 2 - Plant Breakdown",
+    "element_id": "doc-syn-17-p2-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        812,
+        668,
+        684
+      ],
+      "scrap": [
+        90,
+        100,
+        117
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 2,
+    "section_path": "Page 2 - Component Specs",
+    "element_id": "doc-syn-17-p2-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 3,
+    "section_path": "Page 3 - Distribution Share",
+    "element_id": "doc-syn-17-p3-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 3,
+    "section_path": "Page 3 - Component Specs",
+    "element_id": "doc-syn-17-p3-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 4,
+    "section_path": "Page 4 - Plant Breakdown",
+    "element_id": "doc-syn-17-p4-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        628,
+        709,
+        548
+      ],
+      "scrap": [
+        89,
+        53,
+        86
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 4,
+    "section_path": "Page 4 - Component Specs",
+    "element_id": "doc-syn-17-p4-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 5,
+    "section_path": "Page 5 - Distribution Share",
+    "element_id": "doc-syn-17-p5-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 5,
+    "section_path": "Page 5 - Component Specs",
+    "element_id": "doc-syn-17-p5-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 6,
+    "section_path": "Page 6 - Plant Breakdown",
+    "element_id": "doc-syn-17-p6-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        640,
+        756,
+        556
+      ],
+      "scrap": [
+        84,
+        130,
+        115
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 6,
+    "section_path": "Page 6 - Component Specs",
+    "element_id": "doc-syn-17-p6-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 7,
+    "section_path": "Page 7 - Distribution Share",
+    "element_id": "doc-syn-17-p7-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 7,
+    "section_path": "Page 7 - Component Specs",
+    "element_id": "doc-syn-17-p7-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 8,
+    "section_path": "Page 8 - Plant Breakdown",
+    "element_id": "doc-syn-17-p8-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        688,
+        882,
+        875
+      ],
+      "scrap": [
+        128,
+        69,
+        64
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 8,
+    "section_path": "Page 8 - Component Specs",
+    "element_id": "doc-syn-17-p8-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 9,
+    "section_path": "Page 9 - Distribution Share",
+    "element_id": "doc-syn-17-p9-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 9,
+    "section_path": "Page 9 - Component Specs",
+    "element_id": "doc-syn-17-p9-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 10,
+    "section_path": "Page 10 - Plant Breakdown",
+    "element_id": "doc-syn-17-p10-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        693,
+        837,
+        808
+      ],
+      "scrap": [
+        72,
+        102,
+        70
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 10,
+    "section_path": "Page 10 - Component Specs",
+    "element_id": "doc-syn-17-p10-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 11,
+    "section_path": "Page 11 - Distribution Share",
+    "element_id": "doc-syn-17-p11-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 11,
+    "section_path": "Page 11 - Component Specs",
+    "element_id": "doc-syn-17-p11-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 12,
+    "section_path": "Page 12 - Plant Breakdown",
+    "element_id": "doc-syn-17-p12-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        701,
+        778,
+        544
+      ],
+      "scrap": [
+        116,
+        108,
+        68
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 12,
+    "section_path": "Page 12 - Component Specs",
+    "element_id": "doc-syn-17-p12-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 13,
+    "section_path": "Page 13 - Distribution Share",
+    "element_id": "doc-syn-17-p13-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 13,
+    "section_path": "Page 13 - Component Specs",
+    "element_id": "doc-syn-17-p13-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 14,
+    "section_path": "Page 14 - Plant Breakdown",
+    "element_id": "doc-syn-17-p14-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        656,
+        629,
+        710
+      ],
+      "scrap": [
+        57,
+        144,
+        124
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 14,
+    "section_path": "Page 14 - Component Specs",
+    "element_id": "doc-syn-17-p14-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 15,
+    "section_path": "Page 15 - Distribution Share",
+    "element_id": "doc-syn-17-p15-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 15,
+    "section_path": "Page 15 - Component Specs",
+    "element_id": "doc-syn-17-p15-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 16,
+    "section_path": "Page 16 - Plant Breakdown",
+    "element_id": "doc-syn-17-p16-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        688,
+        521,
+        877
+      ],
+      "scrap": [
+        71,
+        130,
+        85
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 16,
+    "section_path": "Page 16 - Component Specs",
+    "element_id": "doc-syn-17-p16-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 17,
+    "section_path": "Page 17 - Distribution Share",
+    "element_id": "doc-syn-17-p17-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 17,
+    "section_path": "Page 17 - Component Specs",
+    "element_id": "doc-syn-17-p17-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 18,
+    "section_path": "Page 18 - Plant Breakdown",
+    "element_id": "doc-syn-17-p18-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        754,
+        555,
+        696
+      ],
+      "scrap": [
+        146,
+        72,
+        85
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 18,
+    "section_path": "Page 18 - Component Specs",
+    "element_id": "doc-syn-17-p18-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 19,
+    "section_path": "Page 19 - Distribution Share",
+    "element_id": "doc-syn-17-p19-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 19,
+    "section_path": "Page 19 - Component Specs",
+    "element_id": "doc-syn-17-p19-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 20,
+    "section_path": "Page 20 - Plant Breakdown",
+    "element_id": "doc-syn-17-p20-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        856,
+        567,
+        535
+      ],
+      "scrap": [
+        79,
+        79,
+        106
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 20,
+    "section_path": "Page 20 - Component Specs",
+    "element_id": "doc-syn-17-p20-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 21,
+    "section_path": "Page 21 - Distribution Share",
+    "element_id": "doc-syn-17-p21-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 21,
+    "section_path": "Page 21 - Component Specs",
+    "element_id": "doc-syn-17-p21-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 22,
+    "section_path": "Page 22 - Plant Breakdown",
+    "element_id": "doc-syn-17-p22-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        545,
+        679,
+        838
+      ],
+      "scrap": [
+        58,
+        71,
+        119
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 22,
+    "section_path": "Page 22 - Component Specs",
+    "element_id": "doc-syn-17-p22-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 23,
+    "section_path": "Page 23 - Distribution Share",
+    "element_id": "doc-syn-17-p23-chart-01",
+    "element_type": "chart",
+    "value": {
+      "Line 1 (Alpha)": 45,
+      "Line 2 (Beta)": 35,
+      "Line 3 (Gamma)": 20
+    },
+    "unit": "%",
+    "bbox": [
+      100,
+      50,
+      310,
+      450
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 23,
+    "section_path": "Page 23 - Component Specs",
+    "element_id": "doc-syn-17-p23-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 24,
+    "section_path": "Page 24 - Plant Breakdown",
+    "element_id": "doc-syn-17-p24-chart-01",
+    "element_type": "chart",
+    "value": {
+      "good": [
+        757,
+        500,
+        551
+      ],
+      "scrap": [
+        129,
+        77,
+        100
+      ]
+    },
+    "unit": "Tons",
+    "bbox": [
+      100,
+      50,
+      320,
+      500
+    ]
+  },
+  {
+    "doc_id": "doc-syn-17",
+    "document_title": "doc-syn-17_Energy_Efficiency_Performance_Report_2025.pdf",
+    "page": 24,
+    "section_path": "Page 24 - Component Specs",
+    "element_id": "doc-syn-17-p24-table-01",
+    "element_type": "table",
+    "value": [
+      [
+        "ID",
+        "Component",
+        "Spec Value",
+        "Compliance"
+      ],
+      [
+        "C-001",
+        "Valve Subsystem 1",
+        "105.2 psi",
+        "PASS"
+      ],
+      [
+        "C-002",
+        "Valve Subsystem 2",
+        "110.4 psi",
+        "PASS"
+      ],
+      [
+        "C-003",
+        "Valve Subsystem 3",
+        "115.6 psi",
+        "PASS"
+      ],
+      [
+        "C-004",
+        "Valve Subsystem 4",
+        "120.8 psi",
+        "PASS"
+      ],
+      [
+        "C-005",
+        "Valve Subsystem 5",
+        "126.0 psi",
+        "PASS"
+      ],
+      [
+        "C-006",
+        "Valve Subsystem 6",
+        "131.2 psi",
+        "PASS"
+      ],
+      [
+        "C-007",
+        "Valve Subsystem 7",
+        "136.4 psi",
+        "PASS"
+      ],
+      [
+        "C-008",
+        "Valve Subsystem 8",
+        "141.6 psi",
+        "PASS"
+      ],
+      [
+        "C-009",
+        "Valve Subsystem 9",
+        "146.8 psi",
+        "PASS"
+      ],
+      [
+        "C-010",
+        "Valve Subsystem 10",
+        "152.0 psi",
+        "PASS"
+      ],
+      [
+        "C-011",
+        "Valve Subsystem 11",
+        "157.2 psi",
+        "PASS"
+      ],
+      [
+        "C-012",
+        "Valve Subsystem 12",
+        "162.4 psi",
+        "PASS"
+      ],
+      [
+        "C-013",
+        "Valve Subsystem 13",
+        "167.6 psi",
+        "PASS"
+      ],
+      [
+        "C-014",
+        "Valve Subsystem 14",
+        "172.8 psi",
+        "PASS"
+      ]
+    ],
+    "unit": "psi",
+    "bbox": [
+      330,
+      50,
+      600,
+      500
+    ]
+  }
+]
